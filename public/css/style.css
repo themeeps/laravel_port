@@ -1,0 +1,63 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background: url('/images/bg_prime.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed; /* Membuat gambar seolah bergerak saat di-scroll */
+    animation: slow-bg-pan 60s linear infinite, fade-in-out 2s ease-in-out infinite; 
+}
+
+@keyframes slow-bg-pan {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 100% 100%; }
+}
+
+footer {
+    background-color: #333;
+    color: white;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-outline-primary {
+    transition: 0.3s;
+}
+
+.btn-outline-primary:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 32px;
+    }
+    header p {
+        font-size: 16px;
+    }
+    #typing-text {
+        font-weight: bold;
+        font-size: 2rem;
+    }
+}
+
+.mainContent {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+#typing-text {
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.leftHere {
+    text-align: left !important;
+}
