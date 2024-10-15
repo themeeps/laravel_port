@@ -8,7 +8,13 @@
             <div class="card-body">
                 <h5 class="card-title">{{ $project->title }}</h5>
                 <p class="card-text">{{ Str::limit($project->description, 100) }}</p>
-                <a href="{{ $project->link }}" target="_blank" class="btn btn-primary">View Project</a>
+                <!-- @if(!empty($project->url))
+                <a href="{{ $project->url }}" target="_blank" class="btn btn-primary">Visit Project</a>
+                @endif -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalDetail{{ $project->id }}">
+                    Detail
+                </button>
+                @include('portfolio.detail', ['project' => $project])
             </div>
         </div>
     </div>
