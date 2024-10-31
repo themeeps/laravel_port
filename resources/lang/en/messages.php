@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'text-1' => 'Hello, I\'m a Full Stack Developer',
+    'text-2' => 'I build modern web applications and solve complex problems.',
+    'text-3' => 'View My Profile',
+    'text-4' => 'My Portfolio',
+    'text-5' => 'Home',
+    'text-6' => 'Projects',
+    'text-7' => 'My Projects',
+    'text-8' => 'Visit Project',
+    'text-9' => 'My Profile',
+    'text-10' => 'About Me',
+    'text-11' => 'My Biodata',
+    'text-12' => 'Skills Summary',
+    'text-13' => 'Full Name',
+    'text-14' => 'Place and date of birth',
+    'text-15' => 'Education',
+    'text-16' => 'Email',
+    'text-17' => 'Phone Number',
+    'text-18' => 'Address',
+    'text-19' => 'Hello, my name is Ali. I\'m a Full-Stack Developer with over 3 years of experience building web and mobile applications. Proficient in PHP, JavaScript, and CSS. Proven ability to analyze project requirements, design user-friendly interfaces, and optimize application performance. Experienced in both individual and team-based development environments.',
+    'text-20' => 'Go to visit',
+    'text-21' => 'Close',
+    'text-22' => 'Language',
+    'text-23' => 'Details',
+];

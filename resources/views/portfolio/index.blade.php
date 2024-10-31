@@ -12,7 +12,7 @@
                 <a href="{{ $project->url }}" target="_blank" class="btn btn-primary">Visit Project</a>
                 @endif -->
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalDetail{{ $project->id }}">
-                    Detail
+                    {{ __('messages.text-23') }}
                 </button>
                 @include('portfolio.detail', ['project' => $project])
             </div>
